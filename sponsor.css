@@ -73,7 +73,12 @@ background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
   box-sizing: border-box;
 }
 
-
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .box, .partners, .imgContainer, contained {
+    width: 100%;
+  }
+}
 
 
 
